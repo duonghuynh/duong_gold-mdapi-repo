@@ -3,7 +3,7 @@
     <businessProcesses>
         <fullName>仮名ひら</fullName>
         <isActive>true</isActive>
-        <values xsi:type="halo">
+        <values>
             <fullName>Closed</fullName>
             <default>false</default>
         </values>
