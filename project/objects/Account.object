@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>APAC</fullName>
+                    <default>false</default>
+                    <label>APAC</label>
+                </value>
+                <value>
+                    <fullName>America</fullName>
+                    <default>false</default>
+                    <label>America</label>
+                </value>
+                <value>
+                    <fullName>Europe</fullName>
+                    <default>false</default>
+                    <label>Europe</label>
+                </value>
+                <value>
+                    <fullName>EMEA</fullName>
+                    <default>false</default>
+                    <label>EMEA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <recordTypes>
         <fullName>Support_Account</fullName>
         <active>true</active>
@@ -221,6 +255,25 @@
             </values>
             <values>
                 <fullName>Technology Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>America</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europe</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
