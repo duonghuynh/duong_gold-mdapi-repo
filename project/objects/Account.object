@@ -3,7 +3,7 @@
     <recordTypes>
         <fullName>Support_Account</fullName>
         <active>true</active>
-        <description>Support Account Desc</description>
+        <description>Support Account Desc call webhook</description>
         <label>Support Account</label>
         <picklistValues>
             <picklist>AccountSource</picklist>
